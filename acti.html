@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos Combinados</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ejemplos Combinados</h1>
+        
+        <h2>Ejemplo 2.5: Volumen del Cilindro</h2>
+        <div id="tabla-25" style="margin: 10px;">
+            <table class='table table-bordered'>
+                <thead>
+                    <tr>
+                        <th>Radio</th>
+                        <th>Altura</th>
+                        <th>Volumen</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-25"></tbody>
+            </table>
+        </div>
+        <form id="formulario-25">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="number" id="radio" name="radio" class="form-control" placeholder="Radio del cilindro">
+                    <input type="number" id="altura" name="altura" class="form-control" placeholder="Altura del cilindro">
+                    <span class="text-danger" id="error-25"></span>
+                </div>
+            </div>
+            <div class="row" style="margin: 10px;">
+                <div class="col-sm-4">
+                    <button type="submit" id="boton-25" class="btn btn-primary">Calcular</button>
+                </div>
+            </div>
+        </form>
+        
+        <h2>Ejemplo 2.4: Agregar Números</h2>
+        <div id="tabla-24" style="margin: 10px;">
+            <table class='table table-bordered'>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Número</th>
+                        <th>Es Primo</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-24"></tbody>
+            </table>
+        </div>
+        <form id="formulario-24">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" id="numero-24" name="numero" class="form-control" placeholder="Escriba un número">
+                    <span class="text-danger" id="error-24"></span>
+                </div>
+            </div>
+            <div class="row" style="margin: 10px;">
+                <div class="col-sm-4">
+                    <button type="submit" id="boton-24" class="btn btn-primary">Agregar</button>
+                </div>
+            </div>
+        </form>
+
+        <h2>Ejercicio 2.6: Longitud del Lado del Cuadrado</h2>
+        <div id="tabla-26" style="margin: 10px;">
+            <table class='table table-bordered'>
+                <thead>
+                    <tr>
+                        <th>Lado</th>
+                        <th>Área</th>
+                        <th>Perímetro</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-26"></tbody>
+            </table>
+        </div>
+        <form id="formulario-26">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" id="lado" name="lado" class="form-control" placeholder="Longitud del lado del cuadrado">
+                    <span class="text-danger" id="error-26"></span>
+                </div>
+            </div>
+            <div class="row" style="margin: 10px;">
+                <div class="col-sm-4">
+                    <button type="submit" id="boton-26" class="btn btn-primary">Calcular</button>
+                </div>
+            </div>
+        </form>
+
+        <h2>Ejercicio 2.10: Agregar Marca y Modelo</h2>
+        <div id="tabla-210" style="margin: 10px;">
+            <table class='table table-bordered'>
+                <thead>
+                    <tr>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-210"></tbody>
+            </table>
+        </div>
+        <form id="formulario-210">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" id="marca" name="marca" class="form-control" placeholder="Nombre de la marca">
+                    <input type="text" id="modelo" name="modelo" class="form-control" placeholder="Nombre del modelo">
+                    <span class="text-danger" id="error-210"></span>
+                </div>
+            </div>
+            <div class="row" style="margin: 10px;">
+                <div class="col-sm-4">
+                    <button type="submit" id="boton-210" class="btn btn-primary">Agregar</button>
+                </div>
+            </div>
+        </form>
+
+        <h2>Verificador de Números Primos</h2>
+        <div id="tabla-primos" style="margin: 10px;">
+            <table class='table table-bordered'>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Número</th>
+                        <th>Es Primo</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-primos"></tbody>
+            </table>
+        </div>
+        <form id="formulario-primos">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="number" id="numero-primos" name="numero" class="form-control" placeholder="Escriba un número">
+                    <span class="text-danger" id="error-primos"></span>
+                </div>
+            </div>
+            <div class="row" style="margin: 10px;">
+                <div class="col-sm-4">
+                    <button type="submit" id="boton-primos" class="btn btn-primary">Verificar Primo</button>
+                </div>
+            </div>
+        </form>
+
+        <h2>Suma de Números Pares entre 2 y 1000</h2>
+        <div id="tabla-pares1000" style="margin: 10px;">
+            <table class='table table-bordered'>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Número</th>
+                        <th>Suma Parcial</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-pares1000"></tbody>
+            </table>
+        </div>
+        <form id="formulario-pares1000">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="number" id="numero-pares1000" name="numero" class="form-control" placeholder="Escriba un número">
+                    <span class="text-danger" id="error-pares1000"></span>
+                </div>
+            </div>
+            <div class="row" style="margin: 10px;">
+                <div class="col-sm-4">
+                    <button type="submit" id="boton-pares1000" class="btn btn-primary">Agregar</button>
+                </div>
+            </div>
+        </form>
+
+        <h2>Suma de Números Pares entre 2 y 100</h2>
+        <div id="tabla-pares100" style="margin: 10px;">
+            <table class='table table-bordered'>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Número</th>
+                        <th>Suma Parcial</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-pares100"></tbody>
+            </table>
+        </div>
+        <form id="formulario-pares100">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" id="numero-pares100" name="numero" class="form-control" placeholder="Escriba un número">
+                    <span class="text-danger" id="error-pares100"></span>
+                </div>
+            </div>
+            <div class="row" style="margin: 10px;">
+                <div class="col-sm-4">
+                    <button type="submit" id="boton-pares100" class="btn btn-primary">Agregar</button>
+                </div>
+            </div>
+        </form>
+
+        <h2>Calculadora de Salario Semanal</h2>
+        <div id="tabla-salario" style="margin: 10px;">
+            <table class='table table-bordered'>
+                <thead>
+                    <tr>
+                        <th>Horas</th>
+                        <th>Salario</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-salario"></tbody>
+            </table>
+        </div>
+        <form id="formulario-salario">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="number" id="horas" name="horas" class="form-control" placeholder="Horas trabajadas esta semana">
+                    <span class="text-danger" id="error-salario"></span>
+                </div>
+            </div>
+            <div class="row" style="margin: 10px;">
+                <div class="col-sm-4">
+                    <button type="submit" id="boton-salario" class="btn btn-primary">Calcular Salario</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="combinado.js"></script>
+</body>
+</html>
